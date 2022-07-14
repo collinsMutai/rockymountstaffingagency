@@ -30,6 +30,13 @@ ul{
 li{
   list-style: none;
 }
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-links a:hover{
+  text-decoration: underline;
+}
 .hero-section {
   background: url("images/1140-rocky-mountain-national-park.imgcache.rev.web.1140.655.jpg")
     no-repeat center center;
@@ -161,9 +168,68 @@ color: #fff;
   font-size: 15px;
   font-weight: 700;
 }
+.footer-nav a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-nav a:hover{
+  text-decoration: underline;
+}
 .copyright{
   display: flex;
   justify-content: center;
   padding: 50px;
   font-size: 14px;
+}
+/* contact page */
+/* contact details section*/
+.contact-details-section{
+  background-color: #983E1B;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 100px 10px;
+}
+.contact h3{
+  font-size: 38px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.contact p{
+  padding: 10px;
+  font-size: 14px;
+}
+.contact a {
+  color: #000;
+}
+.contact a:hover {
+  color: #7D1A13;
+}
+.location h3{
+  font-size: 38px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.location p{
+  padding: 10px;
+  font-size: 14px;
+}
+.connect h3{
+  font-size: 38px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.connect p{
+  padding: 5px;
+  font-size: 14px;
+}
+.connect a {
+  color: #000;
+}
+.connect a:hover {
+  color: #7D1A13;
+}
+span{ 
+  padding-left: 10px;
 }
