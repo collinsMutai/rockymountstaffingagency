@@ -233,3 +233,64 @@ color: #fff;
 span{ 
   padding-left: 10px;
 }
+
+/* certified nursing assistant page */
+/* banner section */
+.hero-banner{
+  background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0,0.9)), url("images/crop-0-0-2160-1440-0-qtq80-dzHR96.jpeg")
+  no-repeat top center;
+background-size: cover;
+height: 100vh;
+}
+.hero-banner-lpn{
+  background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0,0.9)), url("images/qtq80-OtlbWI.jpeg")
+  no-repeat top center;
+background-size: cover;
+height: 100vh;
+}
+.hero-banner-cna{
+  background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0,0.9)), url("images/qtq80-OtlbWI.jpeg")
+  no-repeat top center;
+background-size: cover;
+height: 100vh;
+}
+.hero-banner-heading h1{
+  text-align: center;
+  padding: 200px 50px;
+}
+
+/* qualifications section */
+.qualifications{
+  padding: 70px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #983E1B;
+  color: #fff;
+}
+.skills{
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.skills p{
+  padding: 10px;
+}
+.apply-today-btn{
+  text-align: center;
+}
+.skills-btn {
+  width: 200px;
+  height: 60px;
+  outline: none;
+  border: none;
+  background-color: #7D1A13;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.skills-btn:hover{
+  background-color: #fff;
+  color: #7D1A13;
+}
