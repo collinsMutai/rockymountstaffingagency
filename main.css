@@ -148,6 +148,17 @@ ion-icon {
 .map-icon{
   padding: 5px;
 }
+/* image section */
+
+.image-section-pic{
+  background: url('images/pexels-anthony-shkraba-5215013-1365x2048.jpeg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  padding: 40px;
+  position: sticky;
+}
+
+
 /* footer section */
 .footer-section{
 padding: 100px;
@@ -346,3 +357,30 @@ padding-bottom: 70px;
   text-decoration: none;
   color: #fff;
 }
+
+/* apply job page */
+/* apply buttons */
+.apply-btn{
+  padding: 100px;
+  background-color: #983E1B;
+}
+.apply-job-buttons{
+  text-align: center;
+}
+.apply-job-buttons a{
+  text-decoration: none;
+  color: #fff;
+}
+.apply-btn-one {
+  width: 130px;
+  height: 60px;
+  outline: none;
+  border: none;
+  background-color: #7D1A13;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+
