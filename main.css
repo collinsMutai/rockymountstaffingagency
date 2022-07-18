@@ -451,7 +451,7 @@ textarea {
   text-transform: uppercase;
 }
 
-@media (min-width: 370px) and (max-width: 450px) {
+@media (max-width: 450px) {
   /* navbar */
   .navbar {
     flex-direction: column;
