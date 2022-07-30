@@ -193,6 +193,10 @@ h2 {
   font-size: 16px;
   text-transform: uppercase;
 }
+.hero-btn a{
+  color: #fff;
+  text-decoration: none;
+}
 /* image cards section */
 .card-section {
   padding: 50px;
@@ -265,6 +269,21 @@ h2 {
   padding: 10px;
   font-size: 16px;
   text-transform: uppercase;
+}
+.apply-now-btn {
+  width: 200px;
+  height: 60px;
+  outline: none;
+  border: none;
+  background-color: #7D1A13;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.apply-now-btn a{
+  text-decoration: none;
+  color: #fff;
 }
 ion-icon {
   font-size: 64px;
@@ -545,7 +564,7 @@ form {
   border: 2px solid #000;
   border-radius: 5px;
 }
-.inputs label {
+.inputs label, select {
   font-size: 22px;
 }
 textarea {
@@ -568,7 +587,7 @@ textarea {
   height: 60px;
   outline: none;
   border: none;
-  background-color: #983e1b;
+  background-color: #7D1A13;
   color: #fff;
   padding: 10px;
   font-size: 16px;
